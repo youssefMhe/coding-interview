@@ -1,15 +1,16 @@
 # Coding interview
 
-The purpose of this exercice is to test the candidate for the following Javascript skills :
+The purpose of this exercice is to test the candidate for the following Typescript skills :
 - Use of streams 🔄
 - Functional programming 🧮
 - Unit Testing 🐛
+- Types definitions 📖
 
 ## Indications
 
 - No time limit ⏰
 - Do not hesitate to leave pseudo-code, especially if stuck 🤯
-- Use a pre-existing parser, your favorite testing tool and whatever library you may need 😇
+- Use your favorite testing tool and whatever essential library you may need 😇
 
 ## Instructions
 
