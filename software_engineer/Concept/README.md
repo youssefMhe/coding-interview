@@ -51,11 +51,11 @@ Ticket_state:[
 3. How would you monitor that the service is running? How could you receive alerts when a user's number of tickets excesses 3 open tickets?
 
 There are many proposals for monitoring the application.
-- We can monitor a service endpoint for ower application by checking the endpoint on a specific
+- We can monitor a service endpoint for our application by checking the endpoint on a specific
 schedule. When the specified event happens at that endpoint, such as your application 
 going down, the event triggers your logic app's workflow and runs the actions in that workflow.
 - Uses monitoring tools: we can use many tools (New Relic -Stackify-Datadog ...) 
-all those that can hold ower application all day is monitorins.
+all those that can hold our application all day is monitoring.
 - Software containers: using platforms allowing to launch applications in software containers like Docker. With Docker technology, we can treat containers as very light and modular virtual machines. 
 In addition, these containers give you great flexibility: you can create, deploy, copy and move them from
 one environment to another, allowing you to optimize your applications for the cloud.
@@ -70,7 +70,7 @@ and if the number exceeds 3 tickets an alert will be sent to the manager or we c
 To have 100% of precise data stored every days and every times it is not possible but we always try to make sure that it tends towards 100%.
 
 
-to have this condition, it was necessary to know well balanced the load on the servers to guarantee a response and that your server must be ready to answer , also it is necessary to know the frequency with which our database will be fed with new information and on this musure we can calculate the frequency and preferable time for updating information and initiating requests,
+to have this condition, it was necessary to know well balanced the load on the servers to guarantee a response and that your server must be ready to answer , also it is necessary to know the frequency with which our database will be fed with new information and on this measure we can calculate the frequency and preferable time for updating information and initiating requests,
 
 we also need to use local storage (if we have a problem with request status like 500) to keep the information well and return the request later if we have a response, then free up the local storage space.
 
